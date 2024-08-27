@@ -91,3 +91,30 @@ Esto es necesario si quieres vincular la carpeta de tu proyecto con el repositor
    ``` 
    git push origin main
    ```
+
+
+
+### RESUMEN 
+si quiero crear uno desde cero 
+cuando creo el nuevo repo en github te va a aparecer algo asi
+
+...or create a new repository on the command line
+echo "# curso-data-science-desde-0" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:aca te aparecera un repo.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin git@github.com:aca te aparecera un repo.git
+git branch -M main
+git push -u origin main
+
+en resumen los pasos son
+git init
+git remote add origin git@github.com:aca te aparecera un repo.git
+git add .
+git commit -m "algo aca para describir"
+git push -u origin main
