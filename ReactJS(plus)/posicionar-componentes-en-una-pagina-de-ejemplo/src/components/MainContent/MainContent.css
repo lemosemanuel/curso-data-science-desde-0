@@ -1,0 +1,16 @@
+.main-content {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+}
